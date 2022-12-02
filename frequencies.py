@@ -7,7 +7,7 @@ def frequencies(items):
     for item in items:
         found = False
         if item in frequencies:
-            frequencies[item] += 1
+            frequencies[item] = frequencies[item] + 1
             break
         else:
             frequencies[item] = 1
