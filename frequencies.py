@@ -11,7 +11,7 @@ def frequencies(items):
                 pass
             else:
                 found = True
-                frequencies[item] = frequencies[item] + 1
+                frequencies[item] = 2
                 break
 
         if(found == False):
