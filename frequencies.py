@@ -10,5 +10,8 @@ def frequencies(items):
             frequencies[item] = frequencies[item] + 1
             break
         else:
-            frequencies[item] = 1
+            try:
+                frequencies[int[item]] = 1
+            except:
+                frequencies[item] = 1
     return frequencies
